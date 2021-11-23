@@ -14,6 +14,7 @@ const Header = styled.div`
     display: flex;
     flex-direction: row;
     padding: 1em;
+    background-color: #13294b;
     div:nth-child(2){
         margin-left: auto;
     }
@@ -21,7 +22,8 @@ const Header = styled.div`
 
 const Logo = styled.div`
     color: #54b0bf;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
 `
 
 export default Navbar
