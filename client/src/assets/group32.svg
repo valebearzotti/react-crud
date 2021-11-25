@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="414.063" viewBox="0 0 540 414.063">
+  <g id="Group_32" data-name="Group 32" transform="translate(-6471.352 -301.51)">
+    <g id="Group_31" data-name="Group 31" transform="translate(6471 301.51)">
+      <path id="Path_6" data-name="Path 6" d="M0,0A110.177,110.177,0,0,1,110.177,110.177,110.177,110.177,0,0,1,0,220.354Z" transform="translate(165.265 177.791) rotate(-90)" fill="#ff7f41"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M102,0,204,177H0Z" transform="translate(0.352 0)" fill="#f9f3ef"/>
+      <path id="Polygon_6" data-name="Polygon 6" d="M270,0,540,237H0Z" transform="translate(540.352 414) rotate(180)" fill="#54b0bf"/>
+      <path id="Polygon_7" data-name="Polygon 7" d="M33,0,66,55H0Z" transform="translate(363.352 122)" fill="#f9f3ef"/>
+      <path id="Polygon_8" data-name="Polygon 8" d="M66.5,0,133,111H0Z" transform="translate(407.352 66)" fill="#f9f3ef"/>
+      <path id="Path_7" data-name="Path 7" d="M270.091,0l83.978,73.961L0,237.087Z" transform="translate(540.181 414.063) rotate(180)" fill="#399aaa"/>
+      <path id="Path_8" data-name="Path 8" d="M72.349,0l82.172,133.361H28.3Z" transform="translate(54.277 43.614)" fill="#efe5df"/>
+      <path id="Polygon_5" data-name="Polygon 5" d="M74,0l74,126H0Z" transform="translate(94.352 51)" fill="#f9f3ef"/>
+      <path id="Path_9" data-name="Path 9" d="M47.643,0l59.272,101.031H33.5Z" transform="translate(135.561 75.944)" fill="#efe5df"/>
+      <path id="Path_10" data-name="Path 10" d="M39.313,0,63.664,41.508H33.5Z" transform="translate(366.056 135.468)" fill="#efe5df"/>
+      <path id="Path_11" data-name="Path 11" d="M45.5,0,95.764,85.685H33.5Z" transform="translate(444.417 91.291)" fill="#efe5df"/>
+    </g>
+  </g>
+</svg>
