@@ -4,8 +4,8 @@ import styled from 'styled-components'
 function Navbar() {
     return (
         <Header>
-            <Logo>Home</Logo>
-            <div>Home</div>
+            <Logo>Posts App</Logo>
+            <div>Log In</div>
         </Header>
     )
 }
@@ -13,11 +13,15 @@ function Navbar() {
 const Header = styled.div`
     display: flex;
     flex-direction: row;
-    padding: 1em;
+    padding: 24px 32px;
     background-color: #13294b;
     div:nth-child(2){
         margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+    color: white;
+    font-weight: 600;
 `
 
 const Logo = styled.div`

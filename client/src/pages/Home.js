@@ -1,12 +1,13 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import Navbar from '../components/Navbar'
+import SignIn from '../components/SignIn'
 
 function Home() {
+
     return (
         <div>
             <GlobalStyle />
-            <Navbar></Navbar>
+            <SignIn></SignIn>
         </div>
     )
 }
