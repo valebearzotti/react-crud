@@ -1,68 +1,12 @@
-import React, { useRef, useEffect } from 'react';
-import styled from 'styled-components';
-import { GlobalStyle } from '../pages/Styled';
-import circleOne from '../assets/circleone.svg'
-import circleTwo from '../assets/circletwo.svg'
-import { gsap } from 'gsap';
+import styled from "styled-components";
 
-function SignIn() {
-
-    const box1 = useRef();
-    const box2 = useRef();
-    const box3 = useRef();
-
-    useEffect(() => {
-        gsap.from(box1.current, { delay: 0.6, opacity: 0, y:50, duration: 1})
-        gsap.from(box2.current, { delay: 0.6, opacity: 0, y:-100, duration: 1})
-        gsap.from(box3.current, { delay: 0.4, opacity: 0, y:-50, duration: 1})
-    }, [])
-
-    const trigger = () => {
-        gsap.to(box1.current, { opacity: 1, y:-1000, duration: 2})
-        gsap.to(box2.current, { opacity: 1, y:-1000, duration: 2})
-        gsap.to(box3.current, { opacity: 1, y:-1000, duration: 2})
-
-    }
-
-    return (
-        <Container>
-            <GlobalStyle />
-            <Center>
-                <CircleOne>
-                    <img src={circleOne} alt="" ref={box1}></img>
-                </CircleOne>
-                <CircleTwo>
-                    <img src={circleTwo} alt="" ref={box2}></img>
-                </CircleTwo>
-                <Divider ref={box3}>
-                    <Box>
-                        <Title>Login</Title>
-                        <Input>
-                            <label>Username</label>
-                            <input></input>
-                        </Input>
-                        <Input>
-                            <label>Password</label>
-                            <input></input>
-                        </Input>
-                        <Subtitle>Don't have an account? <span>Create one.</span></Subtitle>
-                        <Button onClick={() => trigger()}>Submit</Button>
-                    </Box>
-                </Divider>
-                
-            </Center>
-        </Container>
-        
-    )
-}
-
-const Container = styled.div`
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
     background: #161623;
 `
 
-const CircleOne = styled.div`
+export const CircleOne = styled.div`
     img{
         position: absolute;
         top: 50%;
@@ -84,7 +28,7 @@ const CircleOne = styled.div`
     }
 `
 
-const CircleTwo = styled.div`
+export const CircleTwo = styled.div`
     img{
         position: absolute;
         top: 10%;
@@ -104,7 +48,7 @@ const CircleTwo = styled.div`
     }
 `
 
-const Center = styled.div`
+export const Center = styled.div`
     width: 576px;
     height: 100vh;
     margin-top: auto;
@@ -118,7 +62,7 @@ const Center = styled.div`
     }
 `
 
-const Divider = styled.div`
+export const Divider = styled.div`
     height: 50%;
     width: 100%;
     display: flex;
@@ -133,7 +77,7 @@ const Divider = styled.div`
     border-radius: 30px;
 `
 
-const Box = styled.div`
+export const Box = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -142,7 +86,7 @@ const Box = styled.div`
     align-items: center;
 `
 
-const Input = styled.div`
+export const Input = styled.div`
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -164,7 +108,7 @@ const Input = styled.div`
     }
 `
 
-const Button = styled.button`
+export const Button = styled.button`
     margin-left: auto;
     margin-top: 30px;
     padding: 8px 26px;
@@ -177,7 +121,7 @@ const Button = styled.button`
     font-weight: 600;
 `
 
-const Title = styled.div`
+export const Title = styled.div`
     font-size: 32px;
     font-weight: 500;
     color: #fff;
@@ -186,7 +130,7 @@ const Title = styled.div`
     margin-bottom: 30px;
 `
 
-const Subtitle = styled.div`
+export const Subtitle = styled.div`
     font-size: 14px;
     color: #fff;
     opacity: 0.6;
@@ -197,5 +141,3 @@ const Subtitle = styled.div`
         cursor: pointer;
     }
 `
-
-export default SignIn
