@@ -1,13 +1,12 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import SignIn from '../components/SignIn'
 
 function Home() {
 
     return (
         <div>
             <GlobalStyle />
-            <SignIn></SignIn>
+            <h1>home page!!!</h1>
         </div>
     )
 }
