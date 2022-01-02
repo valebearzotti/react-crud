@@ -3,8 +3,6 @@ const app = express();
 const mysql = require('mysql2');
 const db = require('./models');
 
-db.sequelize.sync().then((req)=>{
-    app.listen(3001, ()=> {
-        console.log('app running!');
-    });
+app.listen(3001, ()=> {
+    console.log('app running!');
 });
